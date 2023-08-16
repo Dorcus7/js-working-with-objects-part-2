@@ -68,15 +68,24 @@ const car = {
   features: ["radio", "seat warmers", "power windows"],
 };
 
-// Log the following values so that they print in the console without writing the values directly—access them from the car object.
+// Log the following values so that they print in the console without
+// writing the values directly—access them from the car object.
 
-// For example, if you want to log the color of the car, you would write `console.log(car.color);`, or write `car.color` directly into the console. You would _not_ write `console.log("black");` or `black` directly into the console. (You can, but that's not the point of this exercise, and this an easy but unhelpful confusion to have.)
+// For example, if you want to log the color of the car, you would
+// write `console.log(car.color);`, or write `car.color` directly into
+// the console. You would _not_ write `console.log("black");` or
+// `black` directly into the console. (You can, but that's not the
+// point of this exercise, and this an easy but unhelpful confusion to
+// have.)
 
 // 1. The model of the car.
 // 2. The year the car was made.
 // 3. The name of the dealership.
 // 4. The location of the dealership.
-// 5. The last feature listed for the car. (Keep in mind that the extra space before the features key is a common practice for readability and doesn't affect the evaluation of the object at all!)
+// 5. The last feature listed for the car. (Keep in mind that the
+// extra space before the features key is a common practice for
+// readability and doesn't affect the evaluation of the object at
+// all!)
 // 6. The name of the manager at the dealership.
 // 7. The name of the first owner of the car.
 // 8. The age of the first owner of the car.
@@ -90,13 +99,22 @@ var catsForAdoption = [
   { name: "Gracey", age: 12, furColor: "white" },
 ];
 
-// Follow the same instructions as in Exercise 1, but for the catsForAdoption array.
+// Follow the same instructions as in Exercise 1, but for the
+// catsForAdoption array.
 
 // Log the name of the first cat so that it prints in the console.
 
-// Log the string "Gracey is a 12 year old cat with white fur." so that it prints in the console. Make sure to use the values from the Gracey object for the dynamic values, and don't just type the string yourself! (The words "is a" and "year old cat with" are static and should be typed as is.) Hint: look into string concatenation if it's beena while. Or, for a more advanced syntax, research and use string interpolation.
+// Log the string "Gracey is a 12 year old cat with white fur." so
+// that it prints in the console. Make sure to use the values from the
+// Gracey object for the dynamic values, and don't just type the
+// string yourself! (The words "is a" and "year old cat with" are
+// static and should be typed as is.) Hint: look into string
+// concatenation if it's beena while. Or, for a more advanced syntax,
+// research and use string interpolation.
 
-// Log the string "Gracey, Angel, and Kerry are ready to be adopted!" to the console. Same note from above about dynamic and static values.
+// Log the string "Gracey, Angel, and Kerry are ready to be adopted!"
+// to the console. Same note from above about dynamic and static
+// values.
 
 /********************** Exercise 3 - Changing Values In Nested Objects **********************/
 
@@ -128,13 +146,18 @@ const person = {
   ],
 };
 
-// For the following instructions, you will be changing the values of the person object. You will not be changing the code above, but you will be writing code below that will change the values of the person object.
+// For the following instructions, you will be changing the values of
+// the person object. You will not be changing the code above, but you
+// will be writing code below that will change the values of the
+// person object.
 
-// For each instruction, log the person object so that it prints in the console to make sure your changes worked.
+// For each instruction, log the person object so that it prints in
+// the console to make sure your changes worked.
 
-//Change the person's name to "Bob" and their age to 27.
+// Change the person's name to "Bob" and their age to 27.
 
-// Now, change the person's email address to "bob@example.com" and the phone number to "987-654-3210".
+// Now, change the person's email address to "bob@example.com" and the
+// phone number to "987-654-3210".
 
 // Now, change the person's zip code to "60601".
 
@@ -142,22 +165,27 @@ const person = {
 
 // Now, change the person's email address to "charlie@example.com".
 
-// Now, change Fred to be a 6-year-old rat and Gracey to be a 4-year-old lizard.
+// Now, change Fred to be a 6-year-old rat and Gracey to be a
+// 4-year-old lizard.
 
 /********************** Exercise 4 - Accessing Values (Deeply Nested Objects) **********************/
 
 // The following data is a real response from the Weather API service.
 
-// Using the data from the weatherResponse object, add the following values to the variables below:
+// Using the data from the weatherResponse object, add the following
+// values to the variables below:
 
 // 1. The current temperature.
 // 2. The current visibility.
 // 3. The hourly weather description.
 // 4. The daily moon phase.
 
-// Please do not assign the values directly, but access them from the weatherResponse object.
+// Please do not assign the values directly, but access them from the
+// weatherResponse object.
 
-// For example, if you were asked to assign the value of the timezone to a variable, you would write `let timezone = weatherResponse.timezone;`, not `let timezone = "America/Chicago";`.
+// For example, if you were asked to assign the value of the timezone
+// to a variable, you would write `let timezone = weatherResponse.timezone;`,
+// not `let timezone = "America/Chicago";`.
 
 let currentTemperature;
 let currentVisibility;
@@ -265,6 +293,7 @@ let weatherResponse = {
 
 /********************** Exercise 5 - Building Objects **********************/
 
-// Looking at the design_profile image in the assets folder, how would you build an object that reflect the data collected from the user?
+// Looking at the design_profile image in the assets folder, how would
+// you build an object that reflect the data collected from the user?
 
-// Create the object here:
+// Create the object below.

@@ -108,9 +108,10 @@ var catsForAdoption = [
 // that it prints in the console. Make sure to use the values from the
 // Gracey object for the dynamic values, and don't just type the
 // string yourself! (The words "is a" and "year old cat with" are
-// static and should be typed as is.) Hint: look into string
-// concatenation if it's beena while. Or, for a more advanced syntax,
-// research and use string interpolation.
+// static and should be typed as is.) Hint: reseach string
+// concatenation if you're rusty on how to put values into strings.
+// Or, for a more advanced syntax, research and use string
+// interpolation.
 
 // Log the string "Gracey, Angel, and Kerry are ready to be adopted!"
 // to the console. Same note from above about dynamic and static

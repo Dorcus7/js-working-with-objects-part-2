@@ -173,25 +173,9 @@ const person = {
 
 // The following data is a real response from the Weather API service.
 
-// Using the data from the weatherResponse object, add the following
-// values to the variables below:
+// Get a sense of the "shape" of the object. What properties does it have? Does it have any nested objects or arrays?
 
-// 1. The current temperature.
-// 2. The current visibility.
-// 3. The hourly weather description.
-// 4. The daily moon phase.
-
-// Please do not assign the values directly, but access them from the
-// weatherResponse object.
-
-// For example, if you were asked to assign the value of the timezone
-// to a variable, you would write `let timezone = weatherResponse.timezone;`,
-// not `let timezone = "America/Chicago";`.
-
-let currentTemperature;
-let currentVisibility;
-let hourlyWeatherDescription;
-let dailyMoonPhsse;
+// When you're done looking it over, the instructions for the exercise are below the object.
 
 let weatherResponse = {
   lat: 33.44,
@@ -291,6 +275,28 @@ let weatherResponse = {
     },
   ],
 };
+
+// Using the data from the weatherResponse object, add the following
+// values to the variables below:
+
+// 1. The current temperature.
+// 2. The current visibility.
+// 3. The hourly weather description.
+// 4. The daily moon phase.
+
+// Please do not assign the values directly, but access them from the
+// weatherResponse object.
+
+// For example, if you were asked to assign the value of the timezone
+// to a variable, you would write `let timezone = weatherResponse.timezone;`,
+// not `let timezone = "America/Chicago";`.
+
+// Here are the variables you will add the above values to:
+
+let currentTemperature;
+let currentVisibility;
+let hourlyWeatherDescription;
+let dailyMoonPhsse;
 
 /********************** Exercise 5 - Building Objects **********************/
 

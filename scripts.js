@@ -79,19 +79,29 @@ const car = {
 // have.)
 
 // 1. The model of the car.
+console.log("The model of the car is: " + car.model + " and the year it was made is " + car.year + "!");
 // 2. The year the car was made.
+console.log(car.year);
+
 // 3. The name of the dealership.
+console.log(car.dealership.name);
 // 4. The location of the dealership.
+console.log(car.dealership.location);
 // 5. The last feature listed for the car. (Keep in mind that the
 // extra space before the features key is a common practice for
 // readability and doesn't affect the evaluation of the object at
 // all!)
+console.log(car.features[2]);
 // 6. The name of the manager at the dealership.
+console.log(car.dealership.employees[2].name);
 // 7. The name of the first owner of the car.
+console.log(car.owners[0].name);
 // 8. The age of the first owner of the car.
+console.log(car.owners[0].age);
 // 9. The type of pet Fred is.
-
-/********************** Exercise 2 - Accessing Values (Collections) **********************/
+console.log(car.owners[0].pets[1].type);
+//console.log(car.owners[0].pets[0].name);
+/********************** Exercise 2 - Accessing Values (Collections)**********************/
 
 var catsForAdoption = [
   { name: "Angel", age: 18, furColor: "grey" },
@@ -103,6 +113,8 @@ var catsForAdoption = [
 // catsForAdoption array.
 
 // Log the name of the first cat so that it prints in the console.
+
+console.log(catsForAdoption[0].name);
 
 // Log the string "Gracey is a 12 year old cat with white fur." so
 // that it prints in the console. Make sure to use the values from the
@@ -157,11 +169,17 @@ const person = {
 
 // Change the person's name to "Bob" and their age to 27.
 
+ console.log(person.name);
+ person.name = "Bob";
+
 // Now, change the person's email address to "bob@example.com" and the
 // phone number to "987-654-3210".
-
+person.contact.phone ="987-654-3210";
+// phone number to "987-654-3210".
+person.contact.email ="bob@example.com";
 // Now, change the person's zip code to "60601".
-
+//console.log(person.address.zipCode);
+person.address.zipCode = 60601;
 // Now, change the person's name to "Charlie".
 
 // Now, change the person's email address to "charlie@example.com".

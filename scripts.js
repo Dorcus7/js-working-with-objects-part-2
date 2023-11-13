@@ -179,13 +179,26 @@ person.contact.phone ="987-654-3210";
 person.contact.email ="bob@example.com";
 // Now, change the person's zip code to "60601".
 //console.log(person.address.zipCode);
+
 person.address.zipCode = 60601;
+
 // Now, change the person's name to "Charlie".
+person.name ="charlie";
+console.log(person);
+
 
 // Now, change the person's email address to "charlie@example.com".
 
+person.contact.email ="chalie@example.com";
+console.log(person);
 // Now, change Fred to be a 6-year-old rat and Gracey to be a
 // 4-year-old lizard.
+
+person.pets[1].type = "rat";
+person.pets[1].age = 6;
+person.pets[0].type = "lizard";
+person.pets[0].age = 4;
+console.log(person);
 
 /********************** Exercise 4 - Accessing Values (Deeply Nested Objects) **********************/
 
@@ -311,14 +324,32 @@ let weatherResponse = {
 
 // Here are the variables you will add the above values to:
 
-let currentTemperature;
-let currentVisibility;
-let hourlyWeatherDescription;
-let dailyMoonPhsse;
+
+let currentTemperature = weatherResponse.current.temp;
+let currentVisibility = weatherResponse.current.visibility;
+let hourlyWeatherDescription = weatherResponse.hourly[0].weather[0].description;
+let dailyMoonPhase = weatherResponse.daily[0].moon_phase;
 
 /********************** Exercise 5 - Building Objects **********************/
 
 // Looking at the design_profile image in the assets folder, how would
 // you build an object that reflect the data collected from the user?
 
+
 // Create the object below.
+
+let userProfile = {
+  name: "John Doe",
+  age: 30,
+  location: "New York",
+  interests: ["Hiking", "Photography", "Reading"],
+  contact: {
+    email: "johndoe@example.com",
+    phone: "+1 (123) 456-7890",
+  },
+  socialMedia: {
+    facebook: "https://www.facebook.com/johndoe",
+    twitter: "https://twitter.com/johndoe",
+    instagram: "https://www.instagram.com/johndoe",
+  },
+};
